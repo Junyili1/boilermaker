@@ -4,6 +4,8 @@ const app = express();
 
 app.get("/api/customers", (req, res) => {
   const customers = [{}];
+
+  res.json;
 });
 
 const port = "5000";
